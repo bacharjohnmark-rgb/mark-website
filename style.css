@@ -1,0 +1,79 @@
+body{
+    margin: 0px;
+}
+main {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+h1{
+    text-align: center;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: hsl(0 0% 25%);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: hsl(0 0% 10%);
+}
+.navbar li{
+    float: left;
+}
+h1{
+    background-color: rgb(197, 130, 238);
+}
+nav,ul,li,a{
+    background-color: orange;
+}
+h3{
+    background: fixed;
+    animation: reverse;
+    color: red;
+}
+body{
+    background-color: blanchedalmond;
+}
+.card{
+    background-color: black;
+    color: white;
+    height: 250px;
+    width: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.card p{
+    cursor: pointer;
+    height: 100%;
+    flex: 1;
+    overflow: hidden;
+    border-radius: 2px;
+    transition: all.5s;
+    background-color: #212121;
+    border: 1px solid #5ac3ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card p span{
+    min-width: 13em;
+    transform: rotate(-90deg);
+    text-align: center;
+    transition: all;
+}
+.card p:hover{
+    flex: 4;
+}
+.card p:hover span{
+    transform: rotate(0deg);
+}
